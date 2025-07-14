@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BI Analyst Portfolio</title>
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- CSS Libraries -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="main.css" />
+  
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">BI Analyst</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section id="home" class="hero" data-aos="fade-in">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Hi, I'm <span>Muhammad Asad</span></h1>
+        <p><span id="typed"></span></p>
+        <p>
+          I'm a <strong>Data Analyst</strong> with a background in <strong>Software Engineering</strong>,
+          specializing in <strong>Power BI</strong>, <strong>SQL</strong>, and workflow automation.
+          I build interactive dashboards, optimize data pipelines, and help businesses make smarter decisions through actionable insights.
+        </p>
+        <div class="buttons">
+          <a href="#projects" class="btn">View Projects</a>
+          <a href="Muhammad Asad - CV.pdf" download class="btn btn-outline">Download Resume</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="asad.jpg" alt="Profile Photo" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">Power BI</div>
+      <div class="skill-card">SQL</div>
+      <div class="skill-card">Power Apps</div>
+      <div class="skill-card">Power Automate</div>
+      <div class="skill-card">Excel</div>
+      <div class="skill-card">DAX</div>
+      <div class="skill-card">Data Modeling</div>
+      <div class="skill-card">Data Visualization</div>
+    </div>
+  </section>
+
+<!-- ===== PROJECTS ===== -->
+<section id="projects" class="section">
+  <h2>Projects</h2>
+  <div class="projects-grid">
+
+    <!-- 6 project cards -->
+    <div class="project-card" data-aos="fade-left">
+      <img src="GatePass Dashboard.png" alt="Gate Office Dashboard" />
+      <h3>Gate Office Dashboard</h3>
+      <p>Built a real-time Gate Office Dashboard in Power BI using Direct Query to monitor employee entries/exits, visitor activity, deliveries, and gate pass summaries, with detailed visual breakdowns by visitor type and purpose.</p>
+      <div class="project-links"><a href="https://github.com/m-asad020/Power-BI/blob/main/GatePass%20Dashboard.pdf">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-aos="fade-right">
+      <img src="HR Dashboard.png" alt="HR Dashboard" />
+      <h3>HR Dashboard</h3>
+      <p>HR dashboard in Power BI tracks recruitment metrics, showing staff overview, role distribution, recruitment efficiency, and headcount summary. Interactive filters enable detailed data exploration.</p>
+      <div class="project-links"><a href="https://github.com/m-asad020/Power-BI/blob/main/HR%20Dashboard.pdf">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-aos="fade-left">
+      <img src="Training - Power App.png" alt="Training Power App" />
+      <h3>Medical Training - Power App</h3>
+      <p>A comprehensive Power Apps solution designed to streamline training management by enabling admins to create, manage, and track employee and outsider training sessions efficiently.</p>
+      <div class="project-links"><a href="#">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-aos="fade-right">
+      <img src="Clinic Dashboard.png" alt="Clinic Dashboard" />
+      <h3>Clinic Dashboard</h3>
+      <p>Developed an interactive Power BI Clinic Dashboard to track employee clinic visits, showing daily, weekly, and monthly consult trends with comparisons to past periods. Included insights by age group, division, top patients, and most consulted doctors.</p>
+      <div class="project-links"><a href="https://github.com/m-asad020/Power-BI/blob/main/Clinic%20Dashboard.pdf">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-aos="fade-left">
+      <img src="Real State Dashboard.png" alt="Real State Dashboard" />
+      <h3>Real State Dashboard</h3>
+      <p>I redesigned a cluttered real estate dashboard to improve structure and usability, creating a clean interface that highlights key metrics like market cap, land area, and pricing trends.</p>
+      <div class="project-links"><a href="#">GitHub</a></div>
+    </div>
+
+    <div class="project-card" data-aos="fade-right">
+      <img src="SQL Queries - Analytics.png" alt="SQL Data Analysis" />
+      <h3>Database Analysis - Queries</h3>
+      <p>SQL project analyzing patient data for duplicates, specific conditions, and medication issuance, enhancing healthcare decision-making.</p>
+      <div class="project-links"><a href="https://github.com/m-asad020/Database-Analysis">GitHub</a></div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section contact-section" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+    <h2>Contact Me</h2>
+    <p class="section-subtitle">Let’s connect and create something impactful!</p>
+
+    <div class="contact-container">
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <div class="contact-info">
+        <h3>Get in Touch</h3>
+        <p>📧 mad507778@gmail.com</p>
+        <p>🌐 LinkedIn: <a href="https://www.linkedin.com/in/muhammad-asad-92636920b/" target="_blank">Muhammad Asad</a></p>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/muhammad-asad-92636920b/" data-label="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/" data-label="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="mailto:mad507778@gmail.com" data-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== JS Libraries ===== -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="main.js"></script>
+</body>
+</html>
+
